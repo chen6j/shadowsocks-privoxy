@@ -26,13 +26,9 @@ forward-socks5  .dropbox*.com 127.0.0.1:7070  .
 forward-socks5  .*google*.* 127.0.0.1:7070  .
 forward-socks5  .*facebook*.* 127.0.0.1:7070  .
 forward-socks5  .*twitter*.* 127.0.0.1:7070  .
-forward-socks5  .*gmail*.* 127.0.0.1:7070  .
+forward-socks5  .*gmail*.com 127.0.0.1:7070  .
 forward-socks5  .*youtube*.* 127.0.0.1:7070  .
-forward-socks5  .*googleusercontent*.* 127.0.0.1:7070  .
-forward-socks5  .mail.google.com*.* 127.0.0.1:7070  .
-forward-socks5  .*googlemail-pop*.* 127.0.0.1:7070  .
-forward-socks5  .*googlemail-smtp*.* 127.0.0.1:7070  .
-forward-socks5  .*googlemail*.* 127.0.0.1:7070  .
+forward-socks5  .*googlemail*.com 127.0.0.1:7070  .
 
 forwarded-connect-retries  0
 
